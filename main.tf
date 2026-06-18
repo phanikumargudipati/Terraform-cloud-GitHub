@@ -17,6 +17,6 @@ resource "aws_instance" "Phaniinfra" {
 	ami = "ami-00e801948462f718a" 
 	instance_type = "t3.micro"
 tags={
-Name= "gudipati_server"
+Name= "gudipati_phani_server"
 }
 }
